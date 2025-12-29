@@ -10,3 +10,4 @@ def load_rejected_ideas():
 
 def save_rejected_ideas(ideas):
     MEMORY_FILE.write_text(json.dumps(ideas, indent=2))
+#
